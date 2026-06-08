@@ -15,11 +15,13 @@ Magentrix is a multi-tenant portal platform built on:
 - **Frontend**: Iris (Vue.js 3, Tailwind CSS, Flowbite, some SyncFusion components)
 - **Dynamic compilation**: SystemClasses compiled into in-memory DLL at runtime
 
-Two primary instances:
+Each Magentrix deployment has its own portal URL. Replace `{domain}` throughout this guide with your portal's domain. Example:
 | Instance | Domain | Purpose | Token Env Var |
 |---|---|---|---|
-| Connect | `connect.magentrix.com` | Issue tracker (Issue__c, Sprint__c) | `REFRESH_TOKEN` |
-| Dev | `dev.magentrix.com` | Development (SystemClass, entities) | `DEV_REFRESH_TOKEN` |
+| Production | `your-portal.magentrixcloud.com` | Live portal | `REFRESH_TOKEN` |
+| Sandbox / Dev | `your-sandbox.magentrixcloud.com` | Testing / development | `DEV_REFRESH_TOKEN` |
+
+> The domain is set by whoever deployed Magentrix for your organization (e.g. `partners.acme.com`, `demo3.magentrixcloud.com`). Use the URL you normally log in to.
 
 ---
 
