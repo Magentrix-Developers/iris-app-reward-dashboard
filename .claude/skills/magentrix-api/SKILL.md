@@ -8,12 +8,7 @@ user-invocable: true
 
 ## Platform Overview
 
-Magentrix is a multi-tenant portal platform built on:
-- **.NET Framework 4.8** (ASP.NET MVC)
-- **Custom ORM** based on ServiceStack
-- **IIS** web server
-- **Frontend**: Iris (Vue.js 3, Tailwind CSS, Flowbite, some SyncFusion components)
-- **Dynamic compilation**: SystemClasses compiled into in-memory DLL at runtime
+Magentrix is a multi-tenant portal platform. The frontend is built with **Iris** (Vue.js 3, Tailwind CSS, Flowbite).
 
 Each Magentrix deployment has its own portal URL. Replace `{domain}` throughout this guide with your portal's domain. Example:
 | Instance | Domain | Purpose | Token Env Var |
