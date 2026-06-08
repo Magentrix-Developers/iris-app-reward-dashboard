@@ -123,18 +123,16 @@ src/
   skills/
     magentrix-api/           # Magentrix REST API v3 reference skill
     iris-theming/            # IRIS CSS/theming guidelines skill
-    devmode-systemclass/     # SystemClass DevMode skill
 ```
 
 ---
 
 ## Claude Code Skills
 
-This repo ships with three Claude Code skills in `.claude/skills/` that provide AI-assisted development context:
+This repo ships with two Claude Code skills in `.claude/skills/` that provide AI-assisted development context:
 
 - **`magentrix-api`** — Full MEQL query language reference, entity CRUD, authentication patterns
 - **`iris-theming`** — IRIS CSS wrapper system, BEM naming, dark mode, component patterns
-- **`devmode-systemclass`** — SystemClass DevMode compilation pipeline
 
 If you use [Claude Code](https://claude.ai/code), these skills load automatically and give the AI full context about the Magentrix platform when you work on this project.
 
