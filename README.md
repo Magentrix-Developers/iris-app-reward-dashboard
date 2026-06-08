@@ -90,8 +90,6 @@ magentrix vue-run-build
 # Module: ./AppEntry
 ```
 
-See the full deployment guide in [`docs/deployment.md`](docs/deployment.md).
-
 ---
 
 ## Project Structure
